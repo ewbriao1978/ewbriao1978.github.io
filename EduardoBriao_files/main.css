@@ -1,0 +1,157 @@
+*  {
+    font-family: Arial;
+    color: #000;
+    font-size: 16px;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    width: inherit;
+}
+
+main {
+    /*  margin-top: 5rem; */
+    
+}
+
+
+p {
+    
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* ====================== SIDE MENU ========================== */
+
+.side-menu {
+    background-image: linear-gradient(45deg, #777676, #303030);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.2rem;
+}
+
+.side-menu h1 {
+    font-size: 1.5rem;
+    
+    color: #FFF
+}
+
+.side-menu ul {
+    list-style-type: none;
+    text-align: left;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.side-menu li {
+
+    padding: 10px 0px;
+    margin-left: -20px;
+    color: #FFF;
+}
+
+.side-menu a:hover {
+    text-decoration: none;
+}
+
+#photo {
+
+    width: 60%;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    display: block;
+}
+
+
+/* =========================================================== */
+
+.main-content {
+    
+    padding: 1rem 2rem;
+   
+}
+
+.main-content div {
+    /*height: 100%;*/
+}
+
+.main-content h2 {
+    color: #444;
+    border-top: 2px solid rgba(0,0,0,.55);
+    padding-top: 6px;
+    margin-top: 24px;
+
+}
+
+.main-content h4 {
+    color: #444;
+
+}
+
+.main-content ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* =========================================================== */
+
+
+#projects .panel {
+    display: none;    
+}
+
+#projects ul {
+    list-style-type: none;
+}
+
+#projects li i {
+    margin-right: 10px;
+}
+
+#projects li.expandable {
+
+    padding: 15px 15px;
+    margin-bottom: 10px;
+
+}
+
+#projects li.expandable i {
+    width: 20px;
+}
+
+#projects li.expandable:hover {
+    cursor: pointer;
+}
+
+#projects .panel {
+
+    margin-left: 30px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+
+}
+
+/* =========================================================== */
+
+@media screen and (max-width: 600px) {
+
+    #projects {
+      margin-left: 1px;
+      padding-left: 1px;
+    }
+
+    #projects ul {
+        padding-left: 0px;
+    }
+    
+
+  }
